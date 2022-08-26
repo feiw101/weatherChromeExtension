@@ -1,0 +1,17 @@
+{
+    "name": "Weather 2.0",
+    "description": "weather accessing tool",
+    "version": "2.0",
+    "manifest_version": 2,
+    "browser_action" : {
+        "default_popup": "./popup.html",
+        "default_icon": "/images/Iconpic128.png"
+    },
+    "icons": {
+      "16": "/images/Iconpic16.png",
+      "48": "/images/Iconpic48.png",
+      "128": "/images/Iconpic128.png"
+    },
+    "permissions": ["activeTab"]
+}
+
